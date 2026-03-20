@@ -31,7 +31,7 @@ AI Interview Coach is a web application that helps users practice interview ques
 
 ---
 
-## 💡 Use Case
+## Use Case
 This project helps students and job seekers improve their interview performance by practicing answers and receiving feedback.
 
 ---
