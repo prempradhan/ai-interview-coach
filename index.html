@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Interview Coach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎤 AI Interview Coach</h1>
+
+        <p id="question">Click "Next Question" to start</p>
+
+        <textarea id="answer" placeholder="Type or speak your answer..."></textarea>
+
+        <div class="buttons">
+            <button onclick="nextQuestion()">Next Question</button>
+            <button onclick="evaluate()">Evaluate Answer</button>
+            <button onclick="startVoice()">🎤 Speak Answer</button>
+        </div>
+
+        <p id="feedback"></p>
+        <p id="score"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
